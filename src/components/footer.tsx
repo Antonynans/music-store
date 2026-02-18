@@ -1,6 +1,6 @@
 'use client'
 import { usePathname } from 'next/navigation';
-import { SiFacebook, SiTwitter, SiInstagram } from 'react-icons/si'
+import { SiFacebook, SiX, SiInstagram } from 'react-icons/si'
 import Link from 'next/link'
 import { routes } from '../utils/routes';
 
@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
     <div className=" bg-black text-white">
       <div className='xl:w-2/3 w-11/12 container mx-auto'>
       <div className='flex items-center pt-12 flex-col md:flex-row justify-between'>
-        <p className='text-2xl font-semibold tracking-[0.06rem]'>audiStore</p>
+        <p className='text-2xl font-semibold tracking-[0.06rem]'>audioStore</p>
         <ul className='flex flex-col md:flex-row md:gap-10 '>
             {routes.map(route => {
               const { title, slug } = route
@@ -43,7 +43,7 @@ export const Footer: React.FC = () => {
      
       </div>
       <p className='text-white opacity-70 leading-6 text-[0.93rem] text-center py-8 max-w-135 md:text-left'>
-          Audiophile is an all in one stop to fulfill your audio needs. We&apos;re a
+          Audiostore is an all in one stop to fulfill your audio needs. We&apos;re a
           small team of music lovers and sound specialists who are devoted to
           helping you get the most out of personal audio. Come and visit our
           demo facility - we’re open 7 days a week.
@@ -80,9 +80,9 @@ const socials = [
     icon: <SiFacebook />,
   },
   {
-    title: 'twitter',
-    href: 'https://twitter.com/iiamantoni',
-    icon: <SiTwitter />,
+    title: 'x',
+    href: 'https://x.com/iiamantoni',
+    icon: <SiX />,
   },
   {
     title: 'instagram',

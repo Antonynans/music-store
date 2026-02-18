@@ -1,8 +1,4 @@
-// app/product/[slug]/page.tsx
-
 import { Layout } from "@/components/layout";
-import { IProduct } from "@/models/product";
-import { SEO } from "@/components/seo";
 import { Product } from "@/components/product";
 import { products } from "@/data";
 import { Metadata } from "next";
@@ -18,13 +14,12 @@ function capitalize_first_letter(string: string) {
   return "AudioStore | " + string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-// Generate metadata for the page
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const product = products.find((p) => p.slug === slug);
-  console.log(slug, 'slug');
+  console.log(slug, "slug");
 
   if (!product) {
     return {
@@ -38,7 +33,6 @@ export async function generateMetadata({
   };
 }
 
-// Generate static params (replaces getStaticPaths)
 export async function generateStaticParams() {
   return products.map((product) => ({
     slug: product.slug || "",

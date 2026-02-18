@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { useRef, useState } from "react";
 import Link from "next/link";
@@ -52,15 +52,14 @@ export const Header: React.FC = () => {
                           key={route.title}
                           className="hover:text-orange-500 last:mb-8"
                         >
-                          <Link href={slug}>
-                            <a
-                              className={`uppercase flex items-center justify-between max-w-full p-3 border-[#242424] border-2 rounded-md font-bold
+                          <Link
+                            href={slug}
+                            className={`uppercase flex items-center justify-between max-w-full p-3 border-[#242424] border-2 rounded-md font-bold
                     ${pathname === "/" && slug === "/" && style.active} ${isCurrent && style.active} ${isCategory && style.active} ${isSubCategory && style.active}`}
-                              onClick={() => setOpen(false)}
-                            >
-                              {title}
-                              <Icon className={"css.icon"} />
-                            </a>
+                            onClick={() => setOpen(false)}
+                          >
+                            {title}
+                            <Icon className={"css.icon"} />
                           </Link>
                         </li>
                       );

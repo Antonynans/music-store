@@ -15,7 +15,6 @@ function capitalize_first_letter(string: string) {
   return "AudioStore | " + string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-// Generate metadata for the page
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
@@ -27,7 +26,6 @@ export async function generateMetadata({
   };
 }
 
-// Generate static params (replaces getStaticPaths)
 export async function generateStaticParams() {
   const paths = routes
     .filter((route) => route.title !== "home")
@@ -41,7 +39,7 @@ export async function generateStaticParams() {
 export default async function CategoryPage({ params }: PageProps) {
   const { slug } = await params;
   const categoryProducts: IProduct[] = products.filter(
-    (product) => product.category === slug
+    (product) => product.category === slug,
   );
 
   return (
