@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h3 align="center">AudioStore</h3>
 
-## Getting Started
+  <p align="center">
+   A fully responsive e-commerce website built with Tailwind-css and Nextjs
+    <br />
+    <br />
+    <a href="https://zesty-youtiao-dd0674.netlify.app/">View Demo</a>
+    ·
+    <a href="https://github.com/antonynans/audiostore/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/antonynans/audiostore/issues">Request Feature</a>
+  </p>
+  
+[![Nextjs&Tailwindcss](https://skills.thijs.gg/icons?i=next,tailwind)](https://skills.thijs.gg)
+  
+![preview](https://user-images.githubusercontent.com/40110972/192010468-0b5d84b4-6c26-4f4c-b5b0-fd00ffdb68a5.gif)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Contributing
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Thank you for browsing this repo. Any contributions you make are **greatly
+appreciated**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+If you have a suggestion that would make this better, please fork the repo and
+create a pull request. You can also simply open an issue with the tag
+"enhancement". Don't forget to give the project a star! Thanks again!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Learn More
+### 2022 all rights reserved &#169;
+#### Author: [@Antonynans](https://Github.com/Antonynans)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# music-store
