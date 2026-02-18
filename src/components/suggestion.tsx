@@ -1,0 +1,30 @@
+'use client'
+import { ISuggestion } from '../models/suggestion'
+import Image from 'next/image'
+import { useRouter } from 'next/navigation';
+
+
+interface IProps {
+  suggestion: ISuggestion
+}
+
+export const Suggestion: React.FC<IProps> = ({ suggestion }) => {
+  const router = useRouter();
+
+  return (
+    <li className='flex flex-col items-center gap-8'>
+      <div className='overflow-hidden rounded-sm flex min-h-40 md:h-80'>
+        <Image
+          src={suggestion.image.desktop}
+          alt={suggestion.name}
+          objectFit="cover"
+          placeholder="blur"
+        />
+      </div>
+      <h3 className='uppercase font-black'>{suggestion.name}</h3>
+      <button className='p-4 w-full max-w-40 mt-8 rounded-sm bg-orange-500 uppercase text-white hoverBtn' onClick={() => router.push(`/product/${suggestion.slug}`)}>
+        see product
+      </button>
+    </li>
+  )
+}

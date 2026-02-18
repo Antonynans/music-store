@@ -1,0 +1,33 @@
+import Image from "next/image"
+import Link from "next/link"
+import { MdNavigateNext } from 'react-icons/md'
+import { categories } from "../utils/categories"
+
+
+const Categories: React.FC = () => {
+  return (
+    <>
+    <main>
+      <div className="xl:w-2/3 w-11/12 container mx-auto my-20 md:flex justify-between gap-4">
+      {categories.map((cat, i) => (
+        <div className="shadow-3xl py-8 my-16 w-full rounded-md flex flex-col items-center justify-center relative hover:text-orange-500" key={i}>
+        <div className="absolute -top-12 w-40 h-40">
+        <Image  src={cat.image}
+          alt={cat.title}
+          placeholder="blur"
+          objectFit="cover"  />
+        </div>
+        <p className="text-center mt-16 uppercase text-black">{cat.title}</p>
+        <Link href={cat.slug}
+           className="flex items-center justify-center text-sm">SHOP <MdNavigateNext className="text-orange-500" /> 
+        </Link>
+      </div>
+      ))}
+        
+      </div>
+    </main>
+    </>
+  )
+}
+
+export default Categories
