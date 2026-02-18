@@ -10,7 +10,7 @@ export const Gear: React.FC = () => {
           src={image_best_gear}
           alt="best gear"
           placeholder="blur"
-          objectFit="cover"
+          className="object-cover"
         />
       </div>
       <div className='flex flex-col gap-12 text-center lg:text-left lg:w-1/2 lg:items-start items-center mt-12'>
@@ -18,11 +18,11 @@ export const Gear: React.FC = () => {
           Bringing you the <span className='text-orange-500'>best</span> audio gear
         </h2>
         <p className='max-w-xl leading-6 text-[0.93rem] text-[#6d6d6d]'>
-          Located at the heart of New York City, Audiophile is the premier store
+          Located at the heart of New York City, Audiostore is the premier store
           for high end headphones, earphones, speakers, and audio accessories.
           We have a large showroom and luxury demonstration rooms available for
           you to browse and experience a wide range of our products. Stop by our
-          store to meet some of the fantastic people who make Audiophile the
+          store to meet some of the fantastic people who make Audiostore the
           best place to buy your portable audio equipment.
         </p>
       </div>

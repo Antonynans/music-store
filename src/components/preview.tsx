@@ -20,7 +20,7 @@ export const Preview: React.FC<IProps> = ({ product, reverse }) => {
           src={product.categoryImage.tablet}
           alt={product.name}
           placeholder="blur"
-          objectFit="cover"
+          className="object-cover"
         />
       </div>
       <div className='flex lg:w-1/2 text-center lg:text-left flex-col items-center lg:items-start justify-center lg:mt-0 mt-12 gap-8 '>

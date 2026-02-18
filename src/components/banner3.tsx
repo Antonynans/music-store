@@ -12,7 +12,7 @@ export const Banner3: React.FC = () => {
           src={yx1_image}
           alt="earphones yx1"
           placeholder="blur"
-          objectFit="cover"
+          className="object-cover"
         />
       </div>
       <div className="rounded-md bg-[#f1f1f1] md:w-1/2 p-16 flex flex-col items-start justify-center">

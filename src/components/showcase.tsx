@@ -39,7 +39,7 @@ export const Showcase: React.FC<IProps> = ({ product }) => {
           src={image.desktop}
           alt={name}
           placeholder="blur"
-          objectFit="cover"
+          className="object-cover"
         />
       </div>
       <div className="flex gap-12 flex-col lg:mt-0 mt-12">

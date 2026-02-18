@@ -27,7 +27,7 @@ export const CartItem: React.FC<IProps> = ({ item }) => {
             <Image
               src={product.image.mobile}
               alt={product.name}
-              objectFit="cover"
+              className="object-cover"
             />
           </div>
           <div className='text-sm'>

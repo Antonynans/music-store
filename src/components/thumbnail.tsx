@@ -13,7 +13,7 @@ export const Thumbnail: React.FC<IProps> = ({ thumbnail }) => {
         src={thumbnail}
         alt="product"
         placeholder="blur"
-        objectFit="cover"
+        className="object-cover"
       />
     </div>
   )

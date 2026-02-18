@@ -17,7 +17,7 @@ export const Suggestion: React.FC<IProps> = ({ suggestion }) => {
         <Image
           src={suggestion.image.desktop}
           alt={suggestion.name}
-          objectFit="cover"
+          className="object-cover"
           placeholder="blur"
         />
       </div>

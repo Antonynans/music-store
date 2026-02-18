@@ -15,7 +15,7 @@ const Categories: React.FC = () => {
         <Image  src={cat.image}
           alt={cat.title}
           placeholder="blur"
-          objectFit="cover"  />
+          className="object-cover"  />
         </div>
         <p className="text-center mt-16 uppercase text-black">{cat.title}</p>
         <Link href={cat.slug}
