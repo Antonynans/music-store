@@ -1,4 +1,4 @@
-<h3 align="center">AudioStore</h3>
+<h3 align="center">Music store</h3>
 
   <p align="center">
    A fully responsive e-commerce website built with Tailwind-css and Nextjs
@@ -6,9 +6,9 @@
     <br />
     <a href="https://cheerful-manatee-5fef72.netlify.app/">View Demo</a>
     ·
-    <a href="https://github.com/antonynans/audiostore/issues">Report Bug</a>
+    <a href="https://github.com/antonynans/music-store/issues">Report Bug</a>
     ·
-    <a href="https://github.com/antonynans/audiostore/issues">Request Feature</a>
+    <a href="https://github.com/antonynans/music-store/issues">Request Feature</a>
   </p>
   
 [![Nextjs&Tailwindcss](https://skills.thijs.gg/icons?i=next,tailwind)](https://skills.thijs.gg)
@@ -31,7 +31,6 @@ create a pull request. You can also simply open an issue with the tag
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-### 2022 all rights reserved &#169;
 #### Author: [@Antonynans](https://Github.com/Antonynans)
 
 # music-store
