@@ -4,7 +4,7 @@
    A fully responsive e-commerce website built with Tailwind-css and Nextjs
     <br />
     <br />
-    <a href="https://zesty-youtiao-dd0674.netlify.app/">View Demo</a>
+    <a href="https://cheerful-manatee-5fef72.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/antonynans/audiostore/issues">Report Bug</a>
     ·
